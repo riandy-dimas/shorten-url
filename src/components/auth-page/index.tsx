@@ -6,12 +6,6 @@ export const AuthPage = (props: AuthPageProps) => {
   return (
     <AuthPageBase
       {...props}
-      formProps={{
-        initialValues: {
-          email: "info@refine.dev",
-          password: "refine-supabase",
-        },
-      }}
     />
   );
 };
